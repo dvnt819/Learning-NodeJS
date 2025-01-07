@@ -40,7 +40,7 @@ app.patch("api/users/:id",(req,res)=>{
 })
 
 app.delete("/api/users/:id",(req,res)=>{
-
+    
     
     return res.json({status:"pending"});
 })
